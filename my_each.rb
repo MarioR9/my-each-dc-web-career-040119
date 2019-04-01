@@ -1,7 +1,12 @@
-def my_each # put argument(s) here
-  # code here
-  collection = [1, 2, 3, 4]
-  i=0
+collection = [1, 2, 3, 4]
+
+
+
+def my_each(collection)
+
+
+
+ i=0
 
  while i < collection.length
 
@@ -12,4 +17,9 @@ def my_each # put argument(s) here
  end
 
  collection
+
 end
+
+
+
+my_each(collection) {|x| x}
